@@ -12,22 +12,28 @@ public class Main {
         }
 
         int numeroWhile = 1;
-
+        // WHILE
+        
         while(numeroWhile<3); {
             numeroWhile++;
             System.out.println("La variable numeroWhile ahora vale: " + numeroWhile);
         }
 
         int numeroDoWhile = 3;
+        
+        //DO
+        
         do {
             numeroDoWhile++;
             System.out.println("La variable numeroDoWhile ahora vale:  + numeroDoWhile");
         } while (numeroDoWhile < 3);
 
+        //FOR 
+        
         for (int numeroFor =0;numeroFor <= 3; numeroFor++){
             System.out.println("La variable numeroFor ahora vale:" + numeroFor);
-        }
-
+        } 
+        //SWITCH
         var estacion= "VERANO";
         switch (estacion) {
             case "VERANO":
